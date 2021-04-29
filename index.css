@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+body{
+    text-align:center;
+}
+
+.js-clock{
+    font-size: 4em;
+    font-family: 'IBMPlexSansKR-ExtraLight';
+}
+.js-clock h1{
+    margin-bottom: 50px;
+}
+
+.form, .greetings{
+    display: none;
+}
+
+.showing{
+    display:block;
+    font-size: 2em;
+    font-family: 'IBMPlexSansKR-ExtraLight';
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+input{
+    width: 30vw;
+    height: 30px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.js-weather{
+    font-family: 'IBMPlexSansKR-ExtraLight';
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+ul{
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+li {
+    font-family: 'IBMPlexSansKR-ExtraLight';
+    font-size: 1.5em;
+}
+button{
+    background-color: transparent;
+    border: none;
+    margin-left: 50px;
+}
